@@ -4,7 +4,7 @@ using namespace std;
 using namespace Hello;
 
 namespace Namespaces {
-	void _main(string Message) {
+	void _main(string &Message) {
 		HelloWorldGlobal helloWorldGlobal;
 		helloWorldGlobal.message = Message;
 
